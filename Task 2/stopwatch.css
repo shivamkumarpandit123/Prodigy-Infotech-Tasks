@@ -1,0 +1,60 @@
+*{
+    margin: 0px, 0px, 0px, 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /**height: 100vh;
+    background-color: #f0f0f0;*//
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url("front\ image.avif");
+    background-size: cover;
+}
+.main{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    background-image: url("image.avif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius:  20px;
+}
+
+.stopwatch {
+   /**background: rgb(192, 211, 70);**/
+    padding: 20px;
+    margin-left: 25px;
+    margin-top: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.controls button:hover {
+    background-color: #eeff00;
+    border: 2px solid red;
+    color: red;
+}
